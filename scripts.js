@@ -12,27 +12,27 @@ const textoMoeda2 = document.getElementById("txt-moeda-2");
 const moedas = {
     EMPTY: {
         nome: "Selecione",
-        imagem: "./assets/empty.png"
+        imagem: "./empty.png"
     },
     BRL: {
         nome: "Real",
-        imagem: "./assets/real.png"
+        imagem: "./real.png"
     },
     USD: {
         nome: "Dólar",
-        imagem: "./assets/dolar.png"
+        imagem: "./dolar.png"
     },
     EUR: {
         nome: "Euro",
-        imagem: "./assets/euro.png"
+        imagem: "./euro.png"
     },
     BTC: {
         nome: "Bitcoin",
-        imagem: "./assets/bitcoin.png"
+        imagem: "./bitcoin.png"
     },
     JPY: {
         nome: "Iene",
-        imagem: "./assets/iene.png"
+        imagem: "./iene.png"
     }
 };
 
