@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee&family=Oswald:wght@200..700&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="./assets/logo.gif" class="logo">
+    <main>
+        <label>
+            Converter <b>De</b>
+            <select class="seletor" id="moeda-1">
+                <option value="0"> Selecione</option>
+                <option value="BRL"> R$ Real brasileiro </option>
+                <option value="USD"> US$ Dólar americano </option>
+                <option value="EUR"> € Euro </option>
+                <option value="BTC"> ₿ Bitcoin </option>
+                <option value="JPY"> ¥ Iene </option>
+            </select>
+        </label>
+        <label>
+            Converter <b>Para</b>
+            <select class="seletor" id="moeda-2">
+                <option value=""> Selecione</option>
+                <option value="BRL"> R$ Real brasileiro </option>
+                <option value="USD"> US$ Dólar americano </option>
+                <option value="EUR"> € Euro </option>
+                <option value="BTC"> ₿ Bitcoin </option>
+                <option value="JPY"> ¥ Iene </option>
+            </select>
+        </label>
+        <label>
+            Valor:
+            <input class="currency-value" placeholder="10000">
+        </label>
+        <button class="convert-button">Converter</button>
+        <section>
+            <div>
+                <img id="img-moeda-1" src="./assets/real.png">
+                <p id="txt-moeda-1">Real</p>
+                <h2 class="currency-value-to-convert"> R$ 0,00 </h2>
+            </div>
+            <img class="arrow-img" src="./assets/flecha.png">
+            <div>
+                <img id="img-moeda-2" src="./assets/dolar.png">
+                <p id="txt-moeda-2">Dólar</p>
+                <h2 class="currency-result"> US$ 0,00 </h2>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>

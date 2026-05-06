@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #8A50FC;
+}
+
+.logo {
+    max-width: 15vw;
+    display: block;
+    margin: 20px auto 40px auto;
+
+}
+
+main {
+    background-color: #F4F4F4;
+    width: 40vw;
+    border-radius: 20px;
+    padding: 40px 25px;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    color: #777777;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.seletor {
+    background-color: white;
+    border-color: #BBBBBB;
+    border-radius: 10px;
+    line-height: 18px;
+    font-size: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 36vw;
+    appearance: none;
+    color: #555555;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: solid;
+}
+
+input {
+    font-weight: bold;
+    background-color: white;
+    border: 1px #BBBBBB;
+    color: #555555;
+    border-radius: 10px;
+    line-height: 18px;
+    font-size: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 36vw;
+    margin-bottom: 40px;
+    border-style: solid;
+}
+
+.convert-button {
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    background-color: #772FD3;
+    color: #F4F4F4;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+    cursor: pointer;
+    width: 36vw;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px #772FD3;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px auto;
+}
+
+p {
+    font-size: 18px;
+    font-size: bold;
+    color: #777777;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #555555;
+}
+
+@media screen and (max-width: 1100px) {
+    main {
+        width: 80vw;
+    }
+
+    .seletor {
+        width: 72vw;
+    }
+
+    input {
+        width: 72vw;
+    }
+
+    .convert-button {
+        width: 72vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 90vw
+    }
+
+    .seletor {
+        width: 82vw;
+    }
+
+    input {
+        width: 82vw;
+    }
+
+    .convert-button {
+        width: 82vw;
+    }
+}
